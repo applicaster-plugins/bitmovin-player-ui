@@ -54,6 +54,7 @@ export { BufferingOverlay } from './components/bufferingoverlay';
 export { CastUIContainer } from './components/castuicontainer';
 export { PlaybackToggleOverlay } from './components/playbacktoggleoverlay';
 export { CloseButton } from './components/closebutton';
+export { PlayerCloseButton } from './components/playerclosebutton';
 export { MetadataLabel, MetadataLabelContent } from './components/metadatalabel';
 export { AirPlayToggleButton } from './components/airplaytogglebutton';
 export { VolumeSlider } from './components/volumeslider';

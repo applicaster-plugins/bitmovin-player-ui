@@ -37,6 +37,7 @@ import { AdClickOverlay } from './components/adclickoverlay';
 import { AdMessageLabel } from './components/admessagelabel';
 import { AdSkipButton } from './components/adskipbutton';
 import { CloseButton } from './components/closebutton';
+import { PlayerCloseButton } from './components/playerclosebutton';
 import { MetadataLabel, MetadataLabelContent } from './components/metadatalabel';
 import { PlayerUtils } from './playerutils';
 import { Label } from './components/label';
@@ -130,6 +131,7 @@ export namespace UIFactory {
             new VRToggleButton(),
             new SettingsToggleButton({ settingsPanel: settingsPanel }),
             new FullscreenToggleButton(),
+            new PlayerCloseButton(),
           ],
           cssClasses: ['controlbar-bottom'],
         }),
@@ -278,6 +280,7 @@ export namespace UIFactory {
             new VolumeToggleButton(),
             new SettingsToggleButton({ settingsPanel: settingsPanel }),
             new FullscreenToggleButton(),
+            new PlayerCloseButton(),
           ],
         }),
         settingsPanel,
