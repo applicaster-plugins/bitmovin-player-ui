@@ -276,7 +276,7 @@ export namespace UIFactory {
             new CastToggleButton(),
             new VRToggleButton(),
             new PictureInPictureToggleButton(),
-            new AirPlayToggleButton(),
+            // new AirPlayToggleButton(),
             new VolumeToggleButton(),
             new SettingsToggleButton({ settingsPanel: settingsPanel }),
             new FullscreenToggleButton(),
