@@ -1,0 +1,35 @@
+@import '../variables';
+@import '../mixins';
+
+.#{$prefix}-ui-errorclosebutton {
+  @extend %ui-button;
+
+  @keyframes pulsate {
+    20% {
+      transform: scale(1.1);
+    }
+
+    40% {
+      transform: scale(1);
+    }
+
+    60% {
+      transform: scale(1.1);
+    }
+
+    80% {
+      transform: scale(1);
+    }
+  }
+
+  background-image: svg('assets/skin-modern/images/close.svg');
+  margin-top: 2.5em;
+  margin-left: 1em;
+  position: absolute;
+
+  &:hover {
+    @include svg-icon-shadow;
+
+    animation: pulsate 1s;
+  }
+}

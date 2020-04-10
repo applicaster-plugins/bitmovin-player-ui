@@ -28,6 +28,13 @@
       right: 0;
       top: 0;
     }
+
+    .#{$prefix}-ui-errorclosebutton {
+      margin: 2em;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
   }
 
   // Do not display watermark in mobile view
